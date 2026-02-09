@@ -30,6 +30,17 @@ elif score >= 70:
 elif score >= 60:
   print("Grade: D")
 
+#else statement
+
+a = 200
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+else:
+  print("a is greater than b")
+
 #Short Hand If ... Else
 
 a = 2
@@ -50,6 +61,17 @@ if x > 10:
     print("and also above 20!")
   else:
     print("but not above 20.")
+
+age = 25
+has_license = True
+
+if age >= 18:
+  if has_license:
+    print("You can drive")
+  else:
+    print("You need a license")
+else:
+  print("You are too young to drive")
 
 
 #The pass Statement

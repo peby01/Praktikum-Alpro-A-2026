@@ -20,10 +20,10 @@ y = 5
 
 print(x / y)\
 
+#Python Comparison Operators
+
 x = 5
 y = 3
-
-#Python Comparison Operators
 
 print(x == y)
 print(x != y)
@@ -78,6 +78,14 @@ print(x == y)
 print(x is y)
 
 #Python Membership Operators
+
+fruits = ["apple", "banana", "cherry"]
+
+print("banana" in fruits)
+
+fruits = ["apple", "banana", "cherry"]
+
+print("pineapple" not in fruits)
 
 #Bitwise Operators
 
